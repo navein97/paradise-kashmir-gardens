@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Clock } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -57,16 +57,16 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/80 text-sm">
-                <Phone size={16} className="mt-0.5 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
-              </li>
-              <li className="flex items-start gap-2 text-primary-foreground/80 text-sm">
-                <Mail size={16} className="mt-0.5 flex-shrink-0" />
-                <span>info@paradisekashmir.com</span>
-              </li>
-              <li className="flex items-start gap-2 text-primary-foreground/80 text-sm">
                 <MapPin size={16} className="mt-0.5 flex-shrink-0" />
-                <span>Serving residential and commercial clients</span>
+                <span>806 street - Al Murar - Dubai - UAE</span>
+              </li>
+              <li className="flex items-start gap-2 text-primary-foreground/80 text-sm">
+                <Phone size={16} className="mt-0.5 flex-shrink-0" />
+                <span>+971 52 242 0635</span>
+              </li>
+              <li className="flex items-start gap-2 text-primary-foreground/80 text-sm">
+                <Clock size={16} className="mt-0.5 flex-shrink-0" />
+                <span>Open 24 hours</span>
               </li>
             </ul>
           </div>
